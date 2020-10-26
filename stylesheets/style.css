@@ -10,10 +10,20 @@ h2 {
   font-family: helvetica, sans-serif;
   text-align: center;
   font-size: 1.5em;
+  line-height: .1em
 }
 
+h3 {
+  color: rgb(9, 99, 9);
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 3em
+}
+
+
 body {
-  color: rgb(111, 115, 151);
+  color: deepskyblue;
   font-family: helvetica, sans-serif;
   text-align: justify;
  }
@@ -26,6 +36,30 @@ nav {
   display: flex;
   flex-basis:  | auto;
   justify-content: space-evenly
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  line-height: .2em
+}
+
+.header {
+  /*line-height: 5; doesn't work in this class*/
+}
+
+.destinations {
+  color: slateblue;
+  text-align: center
+}
+
+#outside-intro {
+  color: slateblue;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.2em
 }
 
 a:link {
