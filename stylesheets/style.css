@@ -40,7 +40,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 ul {
@@ -87,8 +87,8 @@ footer {
 
 .image-txt-container {
   display: flex;
-  align-items: center;
   flex-direction: row;
+  margin-inline-start: auto;
 }
 
 #page-container {
@@ -105,6 +105,10 @@ footer {
   font-family: helvetica, sans-serif;
   text-align: center;
   font-size: 1.2em
+}
+
+#lake {
+  width: 50%;
 }
 
 
