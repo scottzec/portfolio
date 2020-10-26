@@ -31,7 +31,6 @@ nav {
   font-family: helvetica, sans-serif;
   text-align: center;
   font-size: 1.5em;
-  /*background-color: darkblue; */
   display: flex;
   flex-basis:  | auto;
   justify-content: space-evenly
@@ -53,44 +52,6 @@ a {
   text-align: center
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem; 
-}
-
-#page-container {
-  position: relative;
-  min-height: 90vh
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem
-}
-
-.header {
-  /*line-height: 5; doesn't work in this class*/
-}
-
-.destinations {
-  color: slateblue;
-  text-align: center
-}
-
-.mountain {
-  padding: 0.2em
-}
-
-
-
-#outside-intro {
-  color: slateblue;
-  font-family: helvetica, sans-serif;
-  text-align: center;
-  font-size: 1.2em
-}
-
 a:link {
   color: deepskyblue;
 }
@@ -106,6 +67,46 @@ a:hover {
 a:active {
   color: green;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+
+.destinations {
+  color: slateblue;
+  text-align: center
+}
+
+.mountain {
+  padding: 0.2em
+}
+
+.image-txt-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#page-container {
+  position: relative;
+  min-height: 90vh
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem
+}
+
+#outside-intro {
+  color: slateblue;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.2em
+}
+
 
 
 
